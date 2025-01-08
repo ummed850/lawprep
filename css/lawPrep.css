@@ -1,0 +1,284 @@
+header {
+    background-color: #101828;
+    font-family: sans-serif;
+}
+
+header ul li a {
+    color: white !important;
+    font-size: 15px !important;
+    margin: 10px;
+
+}
+
+.phIcon {
+    background-color: #667085;
+    padding: 8px 12px;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.SignItem button {
+    background-color: red;
+    border: none;
+    font-weight: bold !important;
+    margin-left: 15px !important;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white !important;
+}
+
+#SliderAll {
+    background: linear-gradient(261.99deg, #ffe3dd 2.82%, #fff8da 17.1%, rgba(255, 249, 221, 0) 31.78%, hsla(0, 100%, 90%, .04) 50.27%, rgba(255, 249, 221, .35) 67.28%, #ffeee9 77.89%, rgba(255, 238, 233, .14) 91.09%) !important;
+}
+
+#slider1 .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+.formtagtarget {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+
+.form-container {
+    background-color: #0a0e27;
+    color: #fff;
+    padding: 35px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.form-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-container p {
+    margin-top: 20px;
+    color: #9e8f8f;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    background-color: #ffffff;
+    color: #050303;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-control::placeholder {
+    color: #070707;
+}
+
+.form-select {
+    background-color: #f6f6f6;
+    color: #030303;
+    padding: 10px 0px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.submit-button {
+    background-color: #ff3d3d;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 14px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #e63636;
+}
+
+
+.select2-dropdown {
+    background-color: #1a1e3a;
+    color: #fff;
+}
+
+.pclass {
+    color: #6b87a6;
+}
+
+#juducaryItems {
+    position: relative;
+
+}
+
+#juducaryItems::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    transition: 0.8s;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#juducaryItems:hover::after {
+    width: 100%;
+}
+
+#lawaentrance {
+    padding: 50px 0px;
+    padding-bottom: 90px;
+    background-color: #101828;
+
+}
+
+#pHeading {
+    color: #898c9d !important;
+}
+
+#lawcontent {
+    background-color: rgb(244, 206, 189);
+}
+
+
+#lawcontent:hover {
+    background-image: url("https://www.lawpreptutorial.com/images/courses/courses-card-bg.webp") !important;
+    background-size: cover !important;
+    color: white;
+    background-position: left !important;
+    background-attachment: inherit;
+
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+
+#lawcontent:hover h3 {
+    visibility: hidden;
+}
+
+#lawcontent:hover h2 {
+    color: white !important;
+}
+
+#lawcontent:hover p {
+    color: white !important;
+}
+
+
+#lawcontent h3 {
+    color: #434957;
+    letter-spacing: 2px;
+
+}
+
+#lawcontent h2 {
+    padding-top: 50px;
+}
+
+#lawcontent p {
+    padding-bottom: 40px;
+}
+
+#btnAll {
+    color: black !important;
+    border: none !important;
+    background-color: white !important;
+}
+
+#btnAll:hover {
+    background-color: red ! important;
+}
+
+.btnss {
+    margin-bottom: 30px
+}
+
+#coursseitems {
+    padding: 50px 0px !important;
+    padding-bottom: 120px !important;
+}
+
+#rightcont .hybrid {
+    padding-top: 50px !important;
+}
+
+#Meetmentors {
+    padding: 80px 0px !important;
+}
+
+.meetHeading {
+    letter-spacing: 2px;
+}
+
+.guidence {
+    color: #667085;
+    font-family: sans-serif;
+    padding: 10px 0px;
+}
+
+#mentorDetails {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    width: 35px;
+    background-color: red;
+}
+
+#recentNews button {
+    display: block;
+    margin: 50px auto;
+    padding: 7px 10px !important;
+}
+
+#FaqAll {
+    background-color: #f6f6f6 !important;
+    padding: 40px 0px;
+}
+
+#FaqAll button {
+    background-color: #f6f6f6 !important;
+}
+
+#mainId {
+    background-color: #101828;
+    padding: 40px 0px !important;
+
+}
+
+.impLink {
+    color: #827d7d !important;
+    font-family: sans-serif;
+}
+
+.lastline {
+    padding: 10px 0px !important;
+    border-top: 0.1px solid #ccc;
+    background-color: #101828;
+}
+
+.lastline p {
+    color: #9ca0aa;
+}
+
+#ScialHandle {
+    padding-top: 16px;
+    padding-right: 50px;
+}
+
+#ScialHandle i {
+    padding-left: 22px;
+    font-size: 25px;
+    color: #667085;
+}
+
